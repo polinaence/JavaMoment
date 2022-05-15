@@ -1,0 +1,15 @@
+plugins {
+    id 'java.task5.java-application-conventions'
+}
+
+dependencies {
+    implementation project(':utilities')
+}
+
+application {
+    mainClass = 'ru.nsu.fit.g19202.ppopova1.chat.client.Main'
+}
+
+run {
+    standardInput = System.in
+}
